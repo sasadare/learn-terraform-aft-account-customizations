@@ -9,6 +9,6 @@ resource "aws_s3_bucket" "sandbox_bucket" {
 }
 
 
-resource "aws_vpc" "main" {
+resource "aws_vpc" "main01" {
   cidr_block = "10.0.0.0/16"
 }
